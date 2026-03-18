@@ -1,0 +1,148 @@
+body{
+
+margin:0;
+font-family:Arial;
+background:#0b0f2b;
+color:white;
+text-align:center;
+
+}
+
+
+/* ADS */
+
+.ads-top{
+
+background:#05012e;
+padding:10px;
+
+}
+
+
+/* HEADER */
+
+.header{
+
+background:#111;
+position:sticky;
+top:0;
+
+}
+
+.nav-container{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 30px;
+
+}
+
+.logo img{
+
+height:40px;
+
+}
+
+.nav-links{
+
+display:flex;
+gap:20px;
+list-style:none;
+
+}
+
+.nav-links a{
+
+text-decoration:none;
+color:white;
+font-weight:bold;
+
+}
+
+
+/* HERO */
+
+.hero{
+
+padding:40px;
+
+}
+
+
+/* DOWNLOAD BOX */
+
+.download-box{
+
+margin-top:20px;
+
+}
+
+.download-box input{
+
+width:60%;
+padding:12px;
+border:none;
+border-radius:6px;
+
+}
+
+.download-box button{
+
+padding:12px 20px;
+background:#007bff;
+border:none;
+border-radius:6px;
+color:white;
+cursor:pointer;
+
+}
+
+
+/* VIDEO RESULT */
+
+#videoResult{
+
+margin-top:30px;
+
+}
+
+.thumbnail{
+
+width:250px;
+border-radius:10px;
+
+}
+
+.download-btn{
+
+display:block;
+margin:10px auto;
+padding:10px;
+background:#28a745;
+border:none;
+border-radius:6px;
+color:white;
+cursor:pointer;
+
+}
+
+
+/* ADS */
+
+.ads-middle{
+
+margin-top:50px;
+background:#05012e;
+padding:20px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+margin-top:60px;
+
+}
