@@ -18,7 +18,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/", response_class=HTMLResponse)
 async def serve_frontend():
-    with open("static/index.html", "r") as f:
+    with open("index.html", "r") as f:
         return f.read()
 
 @app.post("/api/download")
