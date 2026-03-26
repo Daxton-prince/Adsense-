@@ -1,0 +1,6 @@
+railway-project/
+├── main.py          (Backend API)
+├── static/          (Frontend files)
+│   ├── index.html
+│   └── style.css (optional)
+└── requirements.txt
