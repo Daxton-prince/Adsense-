@@ -1,3 +1,5 @@
 fastapi
 uvicorn[standard]
+yt-dlp==2024.12.13fastapi
+uvicorn[standard]
 yt-dlp
