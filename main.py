@@ -55,3 +55,10 @@ async def download_video(request: Request, url: str):
 @app.get("/health")
 def health():
     return {"status": "alive"}
+    import os
+import uvicorn
+
+# Add this at the bottom
+if __name__ == "__main__":
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
